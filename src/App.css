@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #00000057;
+  margin-top: 1%;
+  transition: 1s;
+}
+
+#root:hover{
+  box-shadow: 0x 0px 100px rgba(128, 0, 128, 0.37);
+}
+
+body{
+  background: linear-gradient(to left, #1d1d1dbe, #6d00c7, #1d1d1dbe);
+  background-size: 300% 300%;
+  animation: combiarColor 130s ease-in infinite;
+  
+}
+
+@keyframes combiarColor {
+
+0%{
+  background-position: 0% 0%;
+} 
+
+25%{
+  background-position: 150% 0%;
+}
+
+50%{
+  background-position: 300% 0%;
+}
+
+75%{
+  background-position: 150% 0%;
+}
+
+100%{
+    background-position: 0% 0%;
+  }
+}
+
+button {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  padding: 10px;
+  background-color: rgba(0, 0, 255, 0);
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+  border: 2px solid purple;
+}
+
+button:hover{
+  padding: 12px;
+  background-color: purple;
+  
+
+}
+
+input {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #0000002e;
+  border-left: 5px solid purple;
+  transition: 1s;
+}
+
+input:hover{
+  padding: 12px;
+  background-color: #00000070;
+  box-shadow: 0px 0px 100px rgba(79, 0, 110, 0.719);
+
+}
+
