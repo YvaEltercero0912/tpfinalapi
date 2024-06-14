@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import PropTypes from 'prop-types';
 import "./Tasks.css";
 
@@ -21,7 +21,7 @@ const Task = ({ tarea, borrarTarea }) => {
   );
 };
 
-// Definir PropTypes
+
 Task.propTypes = {
   tarea: PropTypes.shape({
     id: PropTypes.number.isRequired,
